@@ -90,6 +90,12 @@
 	
 	p, ul, ol, dl, table {
 		margin-bottom: 1em;
+		list-style: circle;
+	}
+
+	 ol  {
+		margin-left: 1em;
+		list-style: square;
 	}
 
 	header {
@@ -530,6 +536,10 @@
 					.main.style2.left .content {
 						left: 0;
 					}
+
+						.main.style2 ul{
+					list-style: circle;
+				}
 
 				.main.style2.right {
 				}
@@ -1152,6 +1162,30 @@
 		background-attachment: fixed, fixed;
 		background-position: 0% 0%, 50% 10%;
 	}
+
+	/*********************************************************************************/
+/* four                                                                       */
+/*********************************************************************************/
+
+	#four {
+		background: url('images/overlay.png'), url('../images/image3.jpg');
+		background-size: 256px 256px, cover;
+		background-attachment: fixed, fixed;
+		background-position: 0% 0%, 50% 10%;
+	}
+
+
+	/*********************************************************************************/
+/* Five                                                                        */
+/*********************************************************************************/
+
+	#five {
+		background: url('images/overlay.png'), url('../images/one.jpg');
+		background-size: 256px 256px, cover;
+		background-attachment: fixed, fixed;
+		background-position: 0% 0%, 50% 10%;
+	}
+
 /*********************************************************************************/
 /* Work                                                                          */
 /*********************************************************************************/
