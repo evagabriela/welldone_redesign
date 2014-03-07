@@ -1180,7 +1180,19 @@
 /*********************************************************************************/
 
 	#five {
-		background: url('images/overlay.png'), url('../images/one.jpg');
+		background: url('images/overlay.png'), url('../images/five.jpg');
+		background-size: 256px 256px, cover;
+		background-attachment: fixed, fixed;
+		background-position: 0% 0%, 50% 10%;
+	}
+
+
+		/*********************************************************************************/
+/* Six                                                                      */
+/*********************************************************************************/
+
+	#six {
+		background: url('images/overlay.png'), url('../images/two.jpg');
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: 0% 0%, 50% 10%;
