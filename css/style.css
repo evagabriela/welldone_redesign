@@ -1199,6 +1199,38 @@
 	}
 
 /*********************************************************************************/
+/* LifeCoaching                                                                        */
+/*********************************************************************************/
+
+	#lifecoaching {
+		background: url('images/overlay.png'), url('../images/maxwellteam.jpg');
+		background-size: 256px 256px, cover;
+		background-attachment: fixed, fixed;
+		background-position: 0% 0%, 50% 10%;
+	}
+
+	/*********************************************************************************/
+/* LifeCoaching-Mentoring                                                                       */
+/*********************************************************************************/
+
+	#mentoring {
+		background: url('images/overlay.png'), url('../images/mentorship.jpg');
+		background-size: 256px 256px, cover;
+		background-attachment: fixed, fixed;
+		background-position: 0% 0%, 50% 10%;
+	}
+
+		/*********************************************************************************/
+/* Coaching Experience                                                                     */
+/*********************************************************************************/
+
+	#coachingExperience{
+		background: url('images/overlay.png'), url('../images/ChrisSpeach2.jpg');
+		background-size: 256px 256px, cover;
+		background-attachment: fixed, fixed;
+		background-position: 0% 0%, 50% 10%;
+	}
+/*********************************************************************************/
 /* Work                                                                          */
 /*********************************************************************************/
 
